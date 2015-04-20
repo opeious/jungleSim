@@ -7,3 +7,7 @@ The First slider controls the herd size and the second slider controls targeting
 
 Future:
 Energy, Hunger, Food Sources, Species, Predators, Map, Pathfinding, Traits, etc. 
+
+
+ Online Demo 
+http://opeious.github.io/life.html
