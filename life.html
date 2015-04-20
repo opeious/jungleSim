@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Artificial Life Simulator</title>
+
+  
+    <link rel="stylesheet" type="text/css" href="css/slider.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+    <div id="headin"><p>Artificial Life Simulator</p></div>
+    <div class="slider" id="slider1">Herd Size:
+    <input id="slider-input" class="slider-input" type="range" min="0" value="10" max="50"></div>
+    <div class="slider" id="slider2">Target&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
+    <input id="slider-input2" class="slider-input" type="range" min="0" value="1" max="1"></div>
+    <div id="log">
+        <b>Controls and Parametrization<br></b>
+        Animals are generated, they go towards the mouse pointer. They also prefer moving in flocks, but will leave their herds if they get really hungry.
+        
+        The First slider controls the herd size and the second slider controls targetting.
+        <br><br>
+         <b>Current Version</b>
+    v4<br><br>
+        
+        <b>Changelog<br></b>
+        v4 Leaving herd for food if really hungry <br>
+        v3 Hunger, eating mechanics, food Sources (Apple Trees - random apple drops) <br>
+        v2 Flocking (herd like behaviour) <br>
+    v1 Simple Chasing (the mouse pointer)<br>
+    
+    
+    
+    
+
+    <br><br>
+        <b>Source</b>&nbsp;<a href="https://github.com/opeious/opeious.github.io" target="_blank">GitHub</a><br>
+        
+    </div>
+    <div id="phaser"></div>
+    
+    
+    
+    
+    
+    <script src='js/jquery.js'></script>
+    <script src="js/slider.js"></script>
+    <script src="js/phaser.min.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="js/boids.js"></script>
+    <script src="js/trees.js"></script>
+    <script src="js/foods.js"></script>
+    <script src="js/game.js"></script>
+    
+    
+</body>
+
+</html>
