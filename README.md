@@ -14,6 +14,9 @@ http://opeious.github.io/life.html
 
 
 References:
+
 http://www.red3d.com/cwr/boids/
+
 https://github.com/photonstorm/phaser
+
 https://jackogame.wordpress.com/2014/12/14/boids-in-phaser/
